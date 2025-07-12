@@ -1,17 +1,17 @@
-//
-//  md_MergerApp.swift
-//  md Merger
-//
-//  Created by Andrew Rosado on 2025-06-05.
-//
-
 import SwiftUI
 
 @main
 struct md_MergerApp: App {
+    // Create shared services as StateObjects so they live for the life of the app
+    @StateObject private var alertManager = AlertManager()
+    @StateObject private var mergeService = FileMergeService(alertManager: AlertManager())
+
     var body: some Scene {
-        DocumentGroup(newDocument: md_MergerDocument()) { file in
-            ContentView(document: file.$document)
+        WindowGroup {
+            // Inject both services into the environment
+            ContentView()
+                .environmentObject(alertManager)
+                .environmentObject(mergeService)
         }
     }
 }
