@@ -1,7 +1,5 @@
 **TL;DR:** Markdown Merger is a native macOS app that lets you select or drag‑and‑drop multiple `.md` files to produce one combined Markdown document separated by `---`. This README covers installation, launching, operation, and error handling.
 
----
-
 # Markdown Merger
 
 ## I. Overview
