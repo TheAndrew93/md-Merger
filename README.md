@@ -79,12 +79,8 @@
 * **Permissions Issues**
   Grant full disk access under **System Settings → Privacy & Security → Full Disk Access** if your files reside in protected locations.
 
-## V. Support & Feedback
 
-* **GitHub Issues:** [https://github.com/yourusername/markdown‑merger](https://github.com/yourusername/markdown‑merger)
-* **Email:** [support@yourdomain.com](mailto:support@yourdomain.com)
-
-## VI. License
+## V. License
 
 Permission is granted to use, modify, and share this code for any purpose.
 This software is provided "as is", without warranty of any kind. No support is offered.
