@@ -1,3 +1,5 @@
+This project was created as part of a personal initiative to experiment with creating Obsidian plugins and AI. Development was assisted by ChatGPT, providing support in coding, logic structuring, and interface design.
+
 **TL;DR:** Markdown Merger is a native macOS app that lets you select or drag‑and‑drop multiple `.md` files to produce one combined Markdown document separated by `---`. This README covers installation, launching, operation, and error handling.
 
 # Markdown Merger
